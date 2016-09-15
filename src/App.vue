@@ -2,6 +2,7 @@
     <div id="app">
         <img src="./assets/logo.png">
         <h1>{{ msg }}</h1>
+        <h1>{{ test | upper }}</h1>
     </div>
 </template>
 
@@ -9,7 +10,8 @@
 export default {
     data () {
         return {
-            msg: "Hello Vue!"
+            msg: "Hello Vue!!",
+            test: "Sup"
         }
     }
 }
